@@ -1,12 +1,73 @@
-# React + Vite
+# 💼 My Portfolio - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**.  
+This site showcases my **skills**, **projects**, **qualifications**, and includes a downloadable **resume** and direct **GitHub links** to all my work.
 
-Currently, two official plugins are available:
+---
+# Demo
+![Home](./screenshots/About.png)
+![Projects](./screenshots/Education.png)
+![Contact](./screenshots/Work.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🧠 Skills & Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** HTML, CSS, JavaScript, React, Tailwind CSS
+- **Routing:** React Router DOM
+- **Animations & Effects:** React Icons, React Typing Effect, React Simple Typewriter, React Parallax Tilt
+- **Form & Email Integration:** EmailJS
+- **Notifications:** React Toastify
+- **Tooling & Build:** Vite, ESLint, PostCSS
+
+---
+
+## 📁 Features
+
+- 🧑‍💼 About Me section
+- 🛠️ Skills overview
+- 🎓 Qualifications & Education
+- 📄 Resume download/view
+- 🔗 GitHub links to my major projects
+- 📬 Contact form (via EmailJS)
+- 🎨 Clean, responsive UI with animations
+
+---
+
+## 📂 Tech Stack / Dependencies
+
+**Core:**
+- `react`, `react-dom`, `vite`
+
+**Styling & Layout:**
+- `tailwindcss`, `postcss`, `autoprefixer`
+
+**UI Effects & Animation:**
+- `react-icons`, `react-parallax-tilt`, `react-typing-effect`, `react-simple-typewriter`
+
+**Routing & Utilities:**
+- `react-router-dom`, `prop-types`, `react-toastify`, `@emailjs/browser`
+
+**Linting & Dev Tools:**
+- `eslint`, `@eslint/js`, `eslint-plugin-react-hooks`, `@vitejs/plugin-react`, etc.
+
+---
+
+## 🚀 Getting Started
+Follow these steps to run the project locally:
+
+ ### 📦 Clone the repository:
+
+```bash
+git clone https://github.com/HimanshuP13/portfolio
+cd myportfolio
+
+```
+### Install dependencies
+```bash
+npm install
+```
+### Start the development server:
+
+```bash
+npm run dev
+```

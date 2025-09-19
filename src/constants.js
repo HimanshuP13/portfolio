@@ -95,7 +95,7 @@ export const projects = [
         description : "A crypto-to-fiat currency converter that fetches live exchange rates using external APIs, allowing users to compare real-time prices of major cryptocurrencies. ",
         img : cryptologo,
         tags : ["Html","CSS","JavaScript","API"],
-        github : "https://github.com/HimanshuP13/E-commerce"
+        github : "https://github.com/HimanshuP13/crypto-converter"
 
     },
 ]
