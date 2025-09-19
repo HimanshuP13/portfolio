@@ -52,7 +52,7 @@ This site showcases my **skills**, **projects**, **qualifications**, and include
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting  Started
 Follow these steps to run the project locally:
 
  ### 📦 Clone the repository:
