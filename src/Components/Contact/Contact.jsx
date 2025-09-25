@@ -14,10 +14,10 @@ function Contact() {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_43zn56u", 
-      "template_n2sl7us",
+      "service_gpkl6lb", 
+      "template_qujdc5i",
       form.current,
-      "vzOmfYxMqyWE81rrx"
+      "3ceIBuVBn0nGoR_cO"
     ).then (
       () => {
         setIsSent(true);
@@ -32,8 +32,8 @@ function Contact() {
           theme: 'dark',
         })
       }, (error) => {
-      toast.error("Error sending", error);
-      toast.error("Failed to sent", {
+  
+      toast.error(`Error sending: ${error.text || error.message}`, {
         position : "top-right",
           autoClose :3000,
           hideProgressBar : true,
