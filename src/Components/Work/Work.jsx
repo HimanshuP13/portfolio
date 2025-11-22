@@ -11,14 +11,14 @@ function Work() {
     setSelectedProject(null);
   }
   return (
-    <section id='work' className='py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative'>
+    <section id='work' className='py-16 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative'>
       <div className='text-center mb-16'>
         <h2 className='text-4xl font-bold text-white'>Project</h2>
         <div className='w-32 h-1 bg-green-500 mx-auto mt-4'></div>
         <p className='text-gray-400 mt-4 text-lg'>A glimpse into my skills through real-world projects. </p>
       </div>
 
-      {/* Now My projects */}
+     
       <div className='grid gap-12 grid-cols-1 md:grid-cols-2'>
         {projects.map((project) => (
           <div
@@ -61,7 +61,7 @@ function Work() {
       </div>
 
 
-      {/* Making modal */}
+   
       {selectedProject && (
         <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4'>
           <div className='bg-gray-900 rounded-xl shadow-3xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative '>

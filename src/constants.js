@@ -13,14 +13,18 @@ import PostmanApi from './assets/techlogo/postmanapi.png'
 import Strapi from './assets/techlogo/strapi-2.svg'
 import API from './assets/techlogo/Api.png'
 import typescript from './assets/techlogo/typescript.png'
-import Clogo from './assets/techlogo/C.png'
 import EmailJs from './assets/techlogo/Emailjs.png'
 import SCSS from './assets/techlogo/scss.png'
+import ExpressLogo from "./assets/techlogo/Express.png"
+import MongosseLogo from "./assets/techlogo/Mongoose.js.png"
+import MongoDBLogo from "./assets/techlogo/MongoDB.png"
+import ViteLogo from "./assets/techlogo/Vite.js.png"
 
 
 import ecoomercelogo from './assets/worklogo/Ecommerc.png'
 import newspaperclone from './assets/worklogo/Newspaperc.png'
 import cryptologo from './assets/worklogo/cryptoconverter.png'
+import videoplayer  from "./assets/worklogo/VideoPlayer.png"
 
 
 import cbselogo from './assets/Educationlogo/CBSE-Black.png'
@@ -36,12 +40,16 @@ export const SkillsInfo = [
             {name : 'SCSS' ,logo : SCSS},
             {name : 'React' ,logo : reactLogo},
             {name : 'React Router' ,logo : reactRouterLogo},
+            {name : 'Vite',logo: ViteLogo}
         ]
     }, 
     {
         title : 'Backend',
         skills : [
             {name : 'Node.Js' ,logo : nodeLogo},
+            {name : 'Express' ,logo : ExpressLogo},
+            {name : 'MongoDB' ,logo : MongoDBLogo},
+            {name : 'Mongoose' ,logo : MongosseLogo},
             {name : 'MySQL' ,logo : mySqlLogo},
             {name : 'Strapi' ,logo : Strapi},
             {name : 'REST API' ,logo : API},
@@ -52,7 +60,6 @@ export const SkillsInfo = [
         title : 'Languages',
         skills : [
             {name : 'Java' ,logo : javaLogo},
-            {name : 'C' ,logo : Clogo},
             {name : 'JavaScript' ,logo : jsLogo},
             {name : 'TypeScript' ,logo : typescript},
 
@@ -72,14 +79,15 @@ export const SkillsInfo = [
 
 export const projects = [
     {
-        id : 1,
-        title : "Newspaper website",
-        description : "A modern news portal that fetches real-time headlines using APIs, organized into categories like politics, sports, and entertainment, with a clean, responsive UI. ",
-        img : newspaperclone,
-        tags : ["Html","CSS","JavaScript","API"],
-        github : "https://github.com/HimanshuP13/Newspaperclone"
+    id : 1,
+    title : "NovaPlay - Video Player",
+    description : "A modern and responsive video player built with custom controls, playlists, smooth UI, and fast performance. Frontend uses React + Vite + Tailwind, while backend is powered by Node.js, Express, and Mongoose.",
+    img : videoplayer,
+    tags : ["React","Vite","Tailwind","Node.js","Express","Mongoose","API"],
+    github : "https://github.com/HimanshuP13/NovaPlay-Frontend"
+},
 
-    },
+    
     {
         id : 2,
         title : "E-commerce",
@@ -98,6 +106,15 @@ export const projects = [
         github : "https://github.com/HimanshuP13/crypto-converter"
 
     },
+    {
+        id : 4,
+        title : "Newspaper website",
+        description : "A modern news portal that fetches real-time headlines using APIs, organized into categories like politics, sports, and entertainment, with a clean, responsive UI. ",
+        img : newspaperclone,
+        tags : ["Html","CSS","JavaScript","API"],
+        github : "https://github.com/HimanshuP13/Newspaperclone"
+
+    }
 ]
 
 
