@@ -54,7 +54,7 @@ function Navbar() {
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-[Green] ${
+              className={`cursor-pointer hover:text-green-600 ${
                 activeSection === item.id ? "text-[Blue]" : ""
               }`}
             >
@@ -95,7 +95,7 @@ function Navbar() {
           </a>
         </div>
 
-        {/* mobile menu icons */}
+       
         <div className="md:hidden">
           {isOpen ? (
             <FiX
@@ -110,7 +110,7 @@ function Navbar() {
           )}
         </div>
 
-        {/* mobile items */}
+        
         {isOpen && (
           <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414] bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg">
             <ul className="flex flex-col items-center space-y-4 py-4 teaxt-gray-300">

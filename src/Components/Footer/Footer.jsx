@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { FaCode, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaCode, FaGithub, FaLinkedin,FaMobile ,FaEnvelope} from "react-icons/fa";
 
 function Footer() {
 
@@ -81,7 +81,22 @@ function Footer() {
                       </a>
                     </div>
       </div>
-      
+
+  <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-gray-300 py-6 mb-4">
+
+  <span className="flex items-center gap-2">
+    <FaEnvelope className="text-green-400" />
+    himanshu13pandey2001@gmail.com
+  </span>
+
+  <span className="flex items-center gap-2">
+    <FaMobile className="text-green-400" />
+    9794558957
+  </span>
+
+</div>
+
+
 
     </footer>
   )

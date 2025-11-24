@@ -42,7 +42,7 @@ function About() {
             efficient code.
           </p>
           <a
-            href="https://drive.google.com/file/d/1fcTbujuMD7OmPLqVjvQjt7hiCxQfIPYs/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1yRplFbjzGv2ax4FTfg4V4oHC0mBU5NYb/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Download Resume"
