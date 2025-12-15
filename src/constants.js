@@ -25,6 +25,7 @@ import ecoomercelogo from './assets/worklogo/Ecommerc.png'
 import newspaperclone from './assets/worklogo/Newspaperc.png'
 import cryptologo from './assets/worklogo/cryptoconverter.png'
 import videoplayer  from "./assets/worklogo/VideoPlayer.png"
+import Githubviewer from "./assets/worklogo/Github_viewer.png"
 
 
 import cbselogo from './assets/Educationlogo/CBSE-Black.png'
@@ -89,7 +90,7 @@ export const projects = [
 
     
     {
-        id : 2,
+        id : 4,
         title : "E-commerce",
         description : "A simple and responsive e-commerce platform with product listings, dynamic cart functionality, quantity updates, and smooth checkout UI — built for seamless browsing and buying experience.",
         img : ecoomercelogo,
@@ -107,7 +108,16 @@ export const projects = [
 
     },
     {
-        id : 4,
+        id : 2,
+        title : "Github Profile-viewer",
+        description : "A Simple and resposnive github profile viewer with functionality like user can access anyone github progile details bu using usernaming have search button and 2 tabs profile and repos with pagination and show basic details like name,floower following and link if avialibale ",
+        img : Githubviewer,
+        tags : ["React","Vite","Tailwind","API","Javascript"],
+        github : "https://github.com/HimanshuP13/github-profile-viewer"
+
+    },
+    {
+        id : 5,
         title : "Newspaper website",
         description : "A modern news portal that fetches real-time headlines using APIs, organized into categories like politics, sports, and entertainment, with a clean, responsive UI. ",
         img : newspaperclone,
